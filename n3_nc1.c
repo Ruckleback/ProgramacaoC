@@ -14,21 +14,21 @@ int main () {
 
 
 
-    unsigned int PIB = 35000000000;
-    unsigned long int PIB2 = 35000000000;
-    long int PIB3 = 35000000000;
-    int PIB4 = 35000000000;
+    unsigned int PIB = 72000000000;
+    unsigned long int PIB2 = 72000000000;
+    long int PIB3 = 72000000000;
+    int PIB4 = 72000000000;
 
-    unsigned double PIB5 = 35000000000;
-    unsigned long double PIB6 = 35000000000;
-    double PIB7 = 35000000000;
-    long double PIB8 = 35000000000;
+    double PIB5 = 72000000000;
+    long double PIB6 = 72000000000;
+    double PIB7 = 72000000000;
+    long double PIB8 = 72000000000;
 
     printf("Valor do PIB: %u\n", PIB);
     printf("Valor do PIB2: %lu\n", PIB2);
     printf("Valor do PIB3: %ld\n", PIB3);
     printf("Valor do PIB4: %d\n", PIB4);
-    printf("Valor do PIB5: %f\n", PIB5);
+    printf("Valor do PIB5: %.2f\n", PIB5);
     printf("Valor do PIB6: %Lf\n", PIB6);
     printf("Valor do PIB7: %f\n", PIB7);
     printf("Valor do PIB8: %Lf\n", PIB8);
@@ -36,3 +36,4 @@ int main () {
 
     return 0;
 }
+
